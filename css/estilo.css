@@ -558,9 +558,14 @@ footer img{
     font-size: 1.5rem;
 }
 
-@media  (min-width: 993px) and (max-width: 1200px){
+@media  (min-width: 990px) and (max-width: 1200px){
     #catalogo1, #catalogo2, #catalogo3, #catalogo4, #catalogo5, a{
         font-size: 0.8rem !important;
+    }
+
+    #pestanas{
+        width:70%;
+
     }
 
     .botones img{
@@ -588,8 +593,31 @@ footer img{
     }
 }
 
+@media (min-width: 769px) and (max-width: 800px){
+    header{
+        height:190px;
+    }
 
-@media (min-width: 360px) and (max-width: 800px){
+    #pestanas{
+        width:100%;
+    }
+}  
+
+@media (min-width: 320px) and (max-width: 481px){
+    #pestanas{
+        width:50%;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px){
+    #pestanas{
+        width:100%;
+    }
+}
+
+
+@media (min-width: 360px) and (max-width: 768px){
 header{
     height:200px;
 }
@@ -755,10 +783,6 @@ header{
 
 #catalogo4 a{
     width:70% !important;
-}
-
-#pestanas{
-     width:100%;
 }
 
 .nosotros{
