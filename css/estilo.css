@@ -559,8 +559,8 @@ footer img{
 }
 
 @media  (min-width: 993px) and (max-width: 1200px){
-    #catalogo1 a{
-        font-size: 0.8rem;
+    #catalogo1, #catalogo2, #catalogo3, #catalogo4, #catalogo5, a{
+        font-size: 0.8rem !important;
     }
 
     .botones img{
