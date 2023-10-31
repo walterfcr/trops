@@ -616,8 +616,76 @@ footer img{
     }
 }
 
+@media (min-width: 601px) and (max-width: 768px){
 
-@media (min-width: 360px) and (max-width: 768px){
+    .playa h1{
+        font-size: 2.3rem !important;
+    }
+    .playa h2{
+        font-size: 2.3rem !important;
+    }
+
+    .playa img{
+        width:90%;
+    }
+
+    .playa p{
+        font-size: 0.8rem !important;
+    }
+
+    .mostrar{
+        display:block !important;
+    }
+    .ocultar{
+        display:none !important;
+    }
+
+
+    #catalogo1 a, #catalogo2 a, #catalogo3 a, #catalogo4 a, #catalogo5 a{
+        font-size: 0.6rem !important;
+    }
+
+    .list-group{
+        width:100% !important;
+        margin:0 auto !important;
+        padding: 0 50px !important;
+        display: block !important;
+
+    }
+
+    .catalogoPrincipal{
+        width: 100% !important;
+        
+    }
+
+    .catalogoPrincipal img{
+        width:30% !important;
+    }
+
+    .tablaLista{
+        width:70% !important;
+        margin:0 auto !important;
+    }
+
+   .tablaLista ul{
+        margin:30px 0 !important;
+    }
+
+    .colFooter{
+        display:none;   
+    }
+
+    footer hr{
+        display: none;
+    }
+
+    .social{
+        width:100% !important;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 768px){
 header{
     height:200px;
 }
